@@ -5,7 +5,9 @@
     style="width: 50%; max-width: 350px; height: auto; border-radius: 10px;" />
 </div>
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Sobre mi
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Paso a Paso Practica Filtrado de Espacio
+
+1️⃣ Descargar las imagenes de **ruta** en este **Repositorio**
 
 🎓 **Técnico en Sistemas** con formación sólida en mantenimiento preventivo, correctivo y soporte técnico.  
 💻 Actualmente curso el **Tecnólogo en Análisis y Desarrollo de Software (ADSO)** en el **SENA**,  
