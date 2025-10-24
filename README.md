@@ -116,7 +116,15 @@ gcc filtros.c pgm_utils.c -o filtros -fopenmp
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
       <br>
-      <strong>Fundamentos de la Computación Paralela y Distribuida</strong>
+      <strong>👨‍💻 Fundamentos de la Computación Paralela y Distribuida</strong>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>🕒 2025</strong>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>👨‍🎓 Universidad de Pamplona</strong>
 </div>
 
 
