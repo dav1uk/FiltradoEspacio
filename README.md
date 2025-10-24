@@ -7,14 +7,17 @@
 
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Paso a Paso Practica Filtrado de Espacio
 
-1️⃣ Descargar las imagenes de **ruta** en este **Repositorio**
 
-🎓 **Técnico en Sistemas** con formación sólida en mantenimiento preventivo, correctivo y soporte técnico.  
-💻 Actualmente curso el **Tecnólogo en Análisis y Desarrollo de Software (ADSO)** en el **SENA**,  
-en simultáneo con **Ingeniería de Sistemas** en la **Universidad de Pamplona**.  
+<div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
+      <strong>1️⃣ Paso 1:</strong>
+      <p style="margin:.25rem 0 0 0;">Descargar las imágenes de <strong>ruta</strong> en este <strong>Repositorio</strong>.</p>
+</div>
 
-💡 Me apasiona la tecnología, la programación y el desarrollo de soluciones innovadoras que aporten valor real.  
-🚀 Mi meta es convertirme en **desarrollador full stack**, ampliar mi conocimiento en **bases de datos** y explorar nuevas oportunidades en Inteligencia Artificial y desarrollo tecnológico.
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>2️⃣ Paso 2:</strong>
+      <p style="margin:.25rem 0 0 0;">Cambiar las imágenes a <strong>escala de grises</strong> de la siguiente manera.</p>
+</div>
+
 
 
 <p align="center">
@@ -24,6 +27,8 @@ en simultáneo con **Ingeniería de Sistemas** en la **Universidad de Pamplona**
 </p>
 
 ## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado por
+
+
 
 
 
