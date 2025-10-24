@@ -77,18 +77,20 @@ python -m pip install opencv-python numpy matplotlib numba requests
 </div>
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
-      <strong> Paso 11:</strong>
-      <p style="margin:.25rem 0 0 0;">Luego de completar la ejecucion de <strong>Codigo.ipynb</strong>. Descarga <strong>Ej: carpeta = r"C:\Users\jeyco\Documents\GitHub\FiltradoEspacio\images\imagenes"</strong>.</p>
+      <strong>1️⃣1️⃣ Paso 11:</strong>
+      <p style="margin:.25rem 0 0 0;">Descargar los archivos de la ruta <strong>/codigos/</strong> de este <strong>Repositorio</strong> y muevelos a la carpeta de esta <strong>practica</strong>.</p>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>1️⃣2️⃣ Paso 12:</strong>
+      <p style="margin:.25rem 0 0 0;">Abrir el archivo en VisualStudio y ejecutar los siguientes comandos para la compilacion y ejecucion: <strong>practica</strong>.</p>
 </div>
 
 
-```python
-prom = filtro_promedio(img, 5)
-
-plt.figure(figsize=(10,4))
-plt.subplot(1,2,1); plt.imshow(img, cmap='gray'); plt.title('Original'); plt.axis('off')
-plt.subplot(1,2,2); plt.imshow(prom, cmap='gray'); plt.title('Filtro Promedio'); plt.axis('off')
-plt.show()
+```bash
+-- Recuerda ejecutar estos comandos en la ruta ./codigos/
+gcc filtros.c pgm_utils.c -o filtros -fopenmp
+.\filtros.exe
 ```
 
 <p align="center">
