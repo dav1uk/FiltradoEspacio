@@ -1,6 +1,6 @@
 <div align="center">
   <img 
-    src="https://raw.githubusercontent.com/JeisonAlexis/JeisonAlexis/main/assets/banner.svg"
+    src="https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/filtroespacial.svg"
     alt="Banner animado"
     style="width: 65%; max-width: 380px; height: auto; border-radius: 10px;" />
 </div>
@@ -19,18 +19,6 @@ en simultáneo con **Ingeniería de Sistemas** en la **Universidad de Pamplona**
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single&weight=500&duration=3000&pause=1000&color=F5FF29&background=000000&center=true&vCenter=true&width=451&lines=Desarrollador+de+Software;Estudiante+de+Ingenier%C3%ADa+de+Sistemas;Tecnico+en+Sistemas;Estudiante+de+ADSO" alt="Typing SVG" />
   </a>
-</p>
-
-
-
-<p align="center">
-  <img src="assets/progress70.svg" alt="Ingeniería de Sistemas 70%" width="200" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/progress90.svg" alt="ADSO 90%" width="200" height="200"/>
-</p>
-
-<p align="center">
-  <strong>👨‍🎓 Ingeniería de Sistemas</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>👨‍💻 Tecnólogo en ADSO</strong>
 </p>
 
 
