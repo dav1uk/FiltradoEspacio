@@ -32,9 +32,10 @@ plt.show()
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single&weight=500&duration=3000&pause=1000&color=F5FF29&background=000000&center=true&vCenter=true&width=451&lines=Desarrollador+de+Software;Estudiante+de+Ingenier%C3%ADa+de+Sistemas;Tecnico+en+Sistemas;Estudiante+de+ADSO" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Bitcount+Grid+Single&weight=500&duration=3000&pause=1000&color=F5FF29&background=000000&center=true&vCenter=true&width=451&lines=Filtrado+en+espacio;Transformaciones+de+suavizado;Promedio+del+entorno+de+la+vecindad;Filtros+no+lineales;Filtrado+espacial+paso+alto" alt="Typing SVG" />
   </a>
 </p>
+
 
 ## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado por =>
 
