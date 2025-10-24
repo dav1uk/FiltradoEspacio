@@ -15,7 +15,7 @@
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
       <strong>2️⃣ Paso 2:</strong>
-      <p style="margin:.25rem 0 0 0;">Cambiar las imágenes a <strong>escala de grises</strong> de la siguiente manera.</p>
+      <p style="margin:.25rem 0 0 0;">Cambiar las imágenes a <strong>escala de grises</strong> de la siguiente manera:</p>
 </div>
 
 ```python
