@@ -10,7 +10,7 @@
 
 <div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
       <strong>1️⃣ Paso 1:</strong>
-      <p style="margin:.25rem 0 0 0;">Descargar las imágenes de <strong>ruta</strong> en este <strong>Repositorio</strong>.</p>
+      <p style="margin:.25rem 0 0 0;">Descargar las imágenes en la ruta <strong>ruta</strong> en este <strong>Repositorio</strong>.</p>
 </div>
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
@@ -18,6 +18,16 @@
       <p style="margin:.25rem 0 0 0;">Cambiar las imágenes a <strong>escala de grises</strong> de la siguiente manera.</p>
 </div>
 
+```python
+img = cv2.imread(ruta_imagen, cv2.IMREAD_GRAYSCALE)
+if img is None:
+    raise FileNotFoundError("No se pudo cargar la imagen. Verifica la ruta o la descarga.")
+
+plt.imshow(img, cmap='gray')
+plt.axis('off')
+plt.title('Imagen Original')
+plt.show()
+```
 
 
 <p align="center">
@@ -26,9 +36,24 @@
   </a>
 </p>
 
-## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado por
+## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado por =>
 
+<div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
+      <li>Jeison Alexis Rodriguez Angarita</li>
+</div>
 
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <li>Leyder Stiven Jaimes Castellanos</li>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <li>Daniel Eduardo Davila Quintero</li>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <br>
+      <strong>Fundamentos de la Computacioón Paralela y Distribuida</strong>
+</div>
 
 
 
