@@ -37,7 +37,7 @@ plt.show()
 </p>
 
 
-## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado por =>
+## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado Por:
 
 <div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
       <li>Jeison Alexis Rodriguez Angarita</li>
