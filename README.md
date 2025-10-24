@@ -51,6 +51,19 @@ def filtro_promedio(img, ksize=3):
     return salida
 ```
 
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>4️⃣ Paso 4:</strong>
+      <p style="margin:.25rem 0 0 0;">Mostrar la foto con el filtro mostrado:</p>
+</div>
+
+```python
+prom = filtro_promedio(img, 5)
+
+plt.figure(figsize=(10,4))
+plt.subplot(1,2,1); plt.imshow(img, cmap='gray'); plt.title('Original'); plt.axis('off')
+plt.subplot(1,2,2); plt.imshow(prom, cmap='gray'); plt.title('Filtro Promedio'); plt.axis('off')
+plt.show()
+```
 
 <p align="center">
   <a href="https://git.io/typing-svg">
