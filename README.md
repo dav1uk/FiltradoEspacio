@@ -10,7 +10,7 @@
 
 <div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
       <strong>1️⃣ Paso 1:</strong>
-      <p style="margin:.25rem 0 0 0;">Descargar las imágenes en la ruta <strong>ruta</strong> en este <strong>Repositorio</strong>.</p>
+      <p style="margin:.25rem 0 0 0;">Descargar las imágenes de la ruta <strong>/images/imagenes.zip</strong> en este <strong>Repositorio</strong>.</p>
 </div>
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
