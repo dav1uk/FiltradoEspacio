@@ -29,6 +29,28 @@ plt.title('Imagen Original')
 plt.show()
 ```
 
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>3️⃣ Paso 3:</strong>
+      <p style="margin:.25rem 0 0 0;">Aplicar el filtro promedio (lineal) de la siguiente manera:</p>
+</div>
+
+```python
+@njit(parallel=True)
+def filtro_promedio(img, ksize=3):
+    filas, columnas = img.shape
+    salida = np.zeros_like(img)
+    offset = ksize // 2
+
+    for i in prange(offset, filas - offset):
+        for j in range(offset, columnas - offset):
+            suma = 0
+            for m in range(-offset, offset + 1):
+                for n in range(-offset, offset + 1):
+                    suma += img[i + m, j + n]
+            salida[i, j] = suma // (ksize * ksize)
+    return salida
+```
+
 
 <p align="center">
   <a href="https://git.io/typing-svg">
