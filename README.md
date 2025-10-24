@@ -2,7 +2,7 @@
   <img 
     src="https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/filtroespacial.svg"
     alt="Banner animado"
-    style="width: 65%; max-width: 380px; height: auto; border-radius: 10px;" />
+    style="width: 50%; max-width: 350px; height: auto; border-radius: 10px;" />
 </div>
 
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Sobre mi
