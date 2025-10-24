@@ -10,50 +10,60 @@
 
 <div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
       <strong>1️⃣ Paso 1:</strong>
-      <p style="margin:.25rem 0 0 0;">Descargar las imágenes de la ruta <strong>/images/imagenes.zip</strong> en este <strong>Repositorio</strong>.</p>
+      <p style="margin:.25rem 0 0 0;">Crea una carpeta para la <strong>practica</strong>.</p>
 </div>
 
-<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+<div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
       <strong>2️⃣ Paso 2:</strong>
-      <p style="margin:.25rem 0 0 0;">Cambiar las imágenes a <strong>escala de grises</strong> de la siguiente manera:</p>
+      <p style="margin:.25rem 0 0 0;">Abre esa carpeta en <strong>VisualStudio</strong>.</p>
 </div>
 
-```python
-img = cv2.imread(ruta_imagen, cv2.IMREAD_GRAYSCALE)
-if img is None:
-    raise FileNotFoundError("No se pudo cargar la imagen. Verifica la ruta o la descarga.")
-
-plt.imshow(img, cmap='gray')
-plt.axis('off')
-plt.title('Imagen Original')
-plt.show()
-```
-
-<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+<div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
       <strong>3️⃣ Paso 3:</strong>
-      <p style="margin:.25rem 0 0 0;">Aplicar el filtro promedio (lineal) de la siguiente manera:</p>
+      <p style="margin:.25rem 0 0 0;">Abre una nueva terminal y crea un nuevo entorno <strong>Virtual</strong>.</p>
 </div>
 
-```python
-@njit(parallel=True)
-def filtro_promedio(img, ksize=3):
-    filas, columnas = img.shape
-    salida = np.zeros_like(img)
-    offset = ksize // 2
+```bash
+python -m venv venv   
+```
 
-    for i in prange(offset, filas - offset):
-        for j in range(offset, columnas - offset):
-            suma = 0
-            for m in range(-offset, offset + 1):
-                for n in range(-offset, offset + 1):
-                    suma += img[i + m, j + n]
-            salida[i, j] = suma // (ksize * ksize)
-    return salida
+<div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
+      <strong>4️⃣ Paso 4:</strong>
+      <p style="margin:.25rem 0 0 0;">No olvides activar el entorno <strong>Virtual</strong>.</p>
+</div>
+
+```bash
+.\venv\Scripts\activate     
+```
+
+<div style="padding:10px;border-radius:8px;margin-bottom:8px;background:#f7f7f7;">
+      <strong>5️⃣ Paso 5:</strong>
+      <p style="margin:.25rem 0 0 0;">Instala las librerias necesarias para la <strong>practica</strong>.</p>
+</div>
+
+```bash
+pip install opencv-python
+pip install numpy
+pip install matplotlib
+pip install numba
+pip install requests
+python -m pip install --upgrade pip
+python -m pip install opencv-python numpy matplotlib numba requests
 ```
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
-      <strong>4️⃣ Paso 4:</strong>
-      <p style="margin:.25rem 0 0 0;">Mostrar la foto con el filtro mostrado:</p>
+      <strong>6️⃣ Paso 6:</strong>
+      <p style="margin:.25rem 0 0 0;">Descarga las imagenes de la ruta <strong>/images/imagenes.zip</strong> de este <strong>Repositorio</strong></p>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>7️⃣ Paso 7:</strong>
+      <p style="margin:.25rem 0 0 0;">Descomprime el archivo .zip en la carpeta que creaste para la practica.</p>
+</div>
+
+<div style="padding:10px;border-radius:8px;background:#f7f7f7;">
+      <strong>8️⃣ Paso 8:</strong>
+      <p style="margin:.25rem 0 0 0;">Descarga el archivo <strong>Codigo.ipynb</strong> de este <strong>Repositorio</strong>.</p>
 </div>
 
 ```python
