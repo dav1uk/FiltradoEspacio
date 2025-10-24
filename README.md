@@ -23,7 +23,7 @@ en simultáneo con **Ingeniería de Sistemas** en la **Universidad de Pamplona**
   </a>
 </p>
 
-
+## <picture><img src = "https://raw.githubusercontent.com/JeisonAlexis/FiltradoEspacio/main/assets/equipo.gif" width = 50px></picture> Presentado por
 
 
 
