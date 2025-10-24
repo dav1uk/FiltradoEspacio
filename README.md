@@ -75,7 +75,7 @@ def filtro_promedio(img, ksize=3):
 
 <div style="padding:10px;border-radius:8px;background:#f7f7f7;">
       <br>
-      <strong>Fundamentos de la Computacioón Paralela y Distribuida</strong>
+      <strong>Fundamentos de la Computación Paralela y Distribuida</strong>
 </div>
 
 
