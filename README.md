@@ -88,7 +88,7 @@ python -m pip install opencv-python numpy matplotlib numba requests
 
 
 ```bash
--- Recuerda ejecutar estos comandos en la ruta ./codigos/
+-- Recuerda ejecutar estos comandos en la ruta .\codigos\
 gcc filtros.c pgm_utils.c -o filtros -fopenmp
 .\filtros.exe
 ```
