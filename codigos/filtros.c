@@ -99,7 +99,7 @@ void procesar_paralelo(const char *carpeta) {
 }
 
 int main() {
-    const char *carpeta = "C:/Users/jeyco/Documents/GitHub/FiltradoEspacio/images";
+    const char *carpeta = "/home/daviuk/Documentos/Estudios/UP/8vo Semestre/FCPD/Corte2/practica_2/FiltradoEspacio/images/imagenes";
 
     printf("Procesando imágenes desde: %s\n", carpeta);
 
